@@ -1,4 +1,10 @@
-
+//
+//  main.cpp
+//  table
+//
+//  Created by 胡斌 on 2019/6/19.
+//  Copyright © 2019 胡斌. All rights reserved.
+//
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -33,7 +39,7 @@ int main() {
         
         if(a[i]-a[i-1]==2) {
             
-            
+            //cout<<a[i-1]<<" "<<a[i];
             
             if(s<a[i]){
                 
@@ -43,7 +49,7 @@ int main() {
             
         } else if(a[i]-a[i-2]==2) {
             
-           
+            //cout<<a[i-2]<<" "<<a[i];
             
             if(s<a[i]){
                 
